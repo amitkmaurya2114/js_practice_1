@@ -20,12 +20,12 @@ p1.then((value) => {
 })
 
 // To catch the errors
-// p2.catch((error) => {
-//         console.log("some error occurred in p2")
-// })
-
-p2.then((value)=>{
-        console.log(value) 
-},(error)=>{
-        console.log(error)
+p2.catch((error) => {
+        console.log("some error occurred in p2")
 })
+
+// p2.then((value)=>{
+//         console.log(value) 
+// },(error)=>{
+//         console.log(error)
+// })
