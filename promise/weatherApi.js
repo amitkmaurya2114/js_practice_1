@@ -1,6 +1,5 @@
 function getWeather(city) {
-    const apiKey = '2d3ca96f23da8c1d32aec39d49bf7d98';
-    const url = `https://api.openweathermap.org/data/2.5/weather?q=${city}&appid=${apiKey}&units=metric`;
+    const url = `https://api.openweathermap.org/data/2.5/weather?q=${city}&appid=2d3ca96f23da8c1d32aec39d49bf7d98&units=metric`;
 
     // Step 1: Wrap fetch inside a custom Promise
     return new Promise((resolve, reject) => {
